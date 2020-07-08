@@ -138,7 +138,7 @@ float: center;
 
 
 
-@media only screen and (min-width: 90px) {
+@media only screen and (max-width: 600px) {
    
     .header{
         width: 100%;
