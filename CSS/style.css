@@ -118,7 +118,7 @@ float: center;
     text-decoration: none;
     color: snow;
     font-size: 29px;
-    margin-left: 20%;
+    margin-left: 1%;
     display: inline-block;
 }
 .contacto{
@@ -289,9 +289,13 @@ float: center;
         text-align: center;
         margin-left: -8%;
     }
-    #contactoIconos a{
+    #Contacto a{
+        text-decoration: none;
+        color: snow;
+        font-size: 29px;
+        margin-left: 1%;
         display: inline-block;
-}
+    }
    
     
     
