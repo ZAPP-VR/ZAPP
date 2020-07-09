@@ -24,6 +24,9 @@ float: center;
     
     
 }
+.icon{
+    display: none;
+}
 #menu ul, li, a{
     list-style: none;
     display: inline-block;
@@ -186,7 +189,7 @@ float: center;
         
     }
     #menu a{
-        margin-left: 10%;
+        margin-left: 1%;
     }
     #menu ul, li, a{
         list-style: none;
@@ -286,18 +289,9 @@ float: center;
         text-align: center;
         margin-left: -8%;
     }
-    #contactoIconos{
-        width: 100%;
-        text-align: center;
-    }
+    
    
     
     
   }
-  @media screen and (max-width: 600px) {
-    
-  }
-  
-  @media screen and (max-width: 600px) {
-    
-  }
+ 
