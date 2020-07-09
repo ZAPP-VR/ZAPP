@@ -289,7 +289,7 @@ float: center;
         text-align: center;
         margin-left: -8%;
     }
-    #contactoIconos{
+    #contactoIconos a{
         display: inline-block;
 }
    
