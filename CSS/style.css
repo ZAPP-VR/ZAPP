@@ -12,7 +12,7 @@ body{
 }
 
 .header div{
-    width: 100%;
+    width: 80%;
 }
 #menu{
     
@@ -21,7 +21,7 @@ float: center;
     background-color: #1cc7d0;
     border-radius: 2em;
     text-align: right  ;
-    height: 50px;
+    height: 40px;
     
     
 }
@@ -287,11 +287,14 @@ float: center;
         width: 50%;
         margin-left: 30%;
     }
-    
+    .contacto{
+       
+        margin-right: 15%;
+    }
     #contactoTexto{
         width: 100%;
         text-align: center;
-        
+       
     }
     #contactoIconos{
         
@@ -301,7 +304,7 @@ float: center;
         text-decoration: none;
         color: snow;
         font-size: 20px;
-        margin-left: 1%;
+       padding-left: 5%;
         
     }
     hr { height: 0; border-style: solid ; border-color:  #fcd000;}
