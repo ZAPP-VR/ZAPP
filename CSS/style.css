@@ -147,6 +147,7 @@ float: center;
     body{
         background-color: #0066a1;
         margin: 0px;
+        text-align: justify;
         
     }
     .header{
@@ -215,15 +216,18 @@ float: center;
     }
     #inicio{
         width: 100%;
+        margin-right: 2%;
     }
   #texto h4{
     text-align: center;
     font-size: 28px;
   }
     #texto{
-        text-align: justify;
+        
         width: 100%;
-        margin-left: -1%;
+        margin-left: -2%;
+
+        
        
     }
     #imagen{
@@ -246,6 +250,7 @@ float: center;
     }
     .rv{
         overflow: hidden;
+        margin-right: 2%;
         
     }
     .rv img{
@@ -269,7 +274,7 @@ float: center;
    
    .Prevencion{
        width: 100%;
-       margin-left: -10%;
+       margin-left: -12%;
     }
     .prevencionItems{
         width: 100%;
@@ -277,6 +282,7 @@ float: center;
     }
     #prevencionTexto{
         width: 80%;
+        margin-right: 2%;
        
         
     }
