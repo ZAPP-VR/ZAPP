@@ -289,14 +289,18 @@ float: center;
         text-align: center;
         margin-left: -8%;
     }
+    #contactoIconos{
+        
+        width:50%;
+    }
     #Contacto a{
         text-decoration: none;
         color: snow;
         font-size: 20px;
         margin-left: 1%;
-        display: inline-block;
+        
     }
-   
+    hr { height: 0; border-style: solid ; border-color:  #fcd000;}
     
     
   }
