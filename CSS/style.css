@@ -138,8 +138,10 @@ float: center;
 
 
 
-@media only screen and (max-width: 600px) {
-   
+@media only screen and (max-width: 900px) {
+    body{
+        background-color: salmon;
+    }
     .header{
         width: 100%;
         overflow: hidden;
