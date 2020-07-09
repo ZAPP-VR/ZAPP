@@ -12,14 +12,15 @@
 <body>
     <header class="header">
         <div class="menu"><nav id="menu"> 
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#Descarga">Descargar</a></li>
-                <li><a href="#RV">Realidad Virtual</a></li>
-                <li><a href="#Prevencion">Prevencion</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
-            </ul>
-        </nav></div>
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div></div><br><br>
     
     </header>
     
@@ -44,6 +45,7 @@
         <a href=""><i class="fa fa-windows" aria-hidden="true"></i></a>
         <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a>
         <a href=""><i class="fa fa-android" aria-hidden="true"></i></a>
+
         </div>
         
     </section><hr>
@@ -79,5 +81,16 @@
         
                 
     </section>
+    
+<script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
 </body>
 </html>
